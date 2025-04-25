@@ -36,9 +36,25 @@ def is_valid(url):
     # If you decide to crawl it, return True; otherwise return False.
     # There are already some conditions that return False.
     try:
-        parsed = urlparse(url)
-        if parsed.scheme not in set(["http", "https"]):
-            return False
+       parsed = urlparse(url)
+       scheme = parsed.scheme.lower()
+       host = parsed.netloc.lower()
+       path = parsed.path or '/'
+
+
+       if scheme not in set(["http", "https"]):
+           return False
+      
+       allowed_urls = (
+           host.endswith(".ics.uci.edu")
+           or host.endswith(".cs.uci.edu")
+           or host.endswith(".informatics.uci.edu")
+           or host.endswith(".stat.uci.edu")
+       )
+
+       if not (allowed_urls or (host == "today.uci.edu" and path.startswith("/department/information_computer_sciences/"))):
+           return False
+           
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
