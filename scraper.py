@@ -1,5 +1,6 @@
 import re
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urldefrag
+from lxml import html 
 
 def scraper(url, resp):
     links = extract_next_links(url, resp)
@@ -15,7 +16,20 @@ def extract_next_links(url, resp):
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
-    return list()
+    parsed_links = []
+    clean_links = [] 
+
+    if resp.status == 200:
+        content = html.fromstring(resp.raw_response.content)
+        parsed_links = content.xpath("//a/@href")
+    else:
+        print(resp.error)
+    
+    for link in parsed_links:
+        defragmented_link, fragment = urldefrag(link)
+        if (is_valid(defragmented_link)):
+            clean_links.append(defragmented_link)
+    return clean_links 
 
 def is_valid(url):
     # Decide whether to crawl this url or not. 
