@@ -21,6 +21,41 @@ STOP_WORDS = {
     "you're","you've","your","yours","yourself","yourselves"
 }
 
+word_frequencies = Counter()
+
+def tokenize_string(s):
+    tokens = []
+    curr = ""
+    for ch in s:
+        if ch.isascii() and ch.isalnum():
+            curr += ch
+        else:
+            if curr:
+                tokens.append(curr.lower())
+                curr = ""
+    if curr:
+        tokens.append(curr.lower())
+    return tokens
+
+
+def count_words(resp):
+    if resp.status != 200:
+        return
+
+    text = getattr(resp.raw_response, "text", "")
+    if not text.strip():
+        return 
+
+    try:
+        page = html.fromstring(text).text_content().lower()
+    except Exception:
+        return
+    
+    tokens = tokenize_string(page)
+    for t in tokens:
+        if len(t) >= 2 and t.isalpha() and t not in STOP_WORDS:
+            word_frequencies[t] += 1
+
 def scraper(url, resp):
     links = extract_next_links(url, resp)
     return [link for link in links if is_valid(link)]
@@ -35,6 +70,8 @@ def extract_next_links(url, resp):
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
+    count_words(resp)
+
     parsed_links = []
     clean_links = [] 
 
@@ -94,3 +131,10 @@ def is_valid(url):
     except TypeError:
         print ("TypeError for ", parsed)
         raise
+
+def print_top_50():
+    top_50 = word_frequencies.most_common(50)
+    rank = 1
+    for word, count in top_50:
+        print(rank, word, count)
+        rank += 1
