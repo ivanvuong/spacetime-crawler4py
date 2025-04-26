@@ -20,9 +20,13 @@ def extract_next_links(url, resp):
     clean_links = [] 
 
     if resp.status == 200:
-        if resp.raw_response is None or not resp.raw_response.content:
+        body = resp.raw_response.content or bytes() 
+        if not body.strip():
             return []
-        content = html.fromstring(resp.raw_response.content)
+        try: 
+            content = html.fromstring(body)
+        except Exception as e:
+            return []
         parsed_links = content.xpath("//a/@href")
     else:
         print(resp.error)
