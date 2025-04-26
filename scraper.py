@@ -20,10 +20,13 @@ def extract_next_links(url, resp):
     clean_links = [] 
 
     if resp.status == 200:
+        if resp.raw_response is None or not resp.raw_response.content:
+            return []
         content = html.fromstring(resp.raw_response.content)
         parsed_links = content.xpath("//a/@href")
     else:
         print(resp.error)
+        return []
     
     for link in parsed_links:
         defragmented_link, fragment = urldefrag(link)
@@ -36,23 +39,23 @@ def is_valid(url):
     # If you decide to crawl it, return True; otherwise return False.
     # There are already some conditions that return False.
     try:
-       parsed = urlparse(url)
-       scheme = parsed.scheme.lower()
-       host = parsed.netloc.lower()
-       path = parsed.path or '/'
+        parsed = urlparse(url)
+        scheme = parsed.scheme.lower()
+        host = parsed.netloc.lower()
+        path = parsed.path or '/'
 
 
-       if scheme not in set(["http", "https"]):
-           return False
+        if scheme not in set(["http", "https"]):
+            return False
       
-       allowed_urls = (
+        allowed_urls = (
            host.endswith(".ics.uci.edu")
            or host.endswith(".cs.uci.edu")
            or host.endswith(".informatics.uci.edu")
            or host.endswith(".stat.uci.edu")
-       )
+        )
 
-       if not (allowed_urls or (host == "today.uci.edu" and path.startswith("/department/information_computer_sciences/"))):
+        if not (allowed_urls or (host == "today.uci.edu" and path.startswith("/department/information_computer_sciences/"))):
            return False
            
         return not re.match(
