@@ -18,6 +18,7 @@ def main(config_file, restart):
 
     print("\nTop 50 words:")
     scraper.print_top_50()
+    print(f"Number of unique pages: {scraper.number_of_unique_pages()}")
 
 
 if __name__ == "__main__":

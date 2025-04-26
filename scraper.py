@@ -22,6 +22,7 @@ STOP_WORDS = {
 }
 
 word_frequencies = Counter()
+unique_visited = set()
 
 def tokenize_string(s):
     tokens = []
@@ -56,6 +57,9 @@ def count_words(resp):
             word_frequencies[t] += 1
 
 def scraper(url, resp):
+    defragmented_link, fragment = urldefrag(url)
+    unique_visited.add(defragmented_link)
+
     links = extract_next_links(url, resp)
     return [link for link in links if is_valid(link)]
 
@@ -120,7 +124,7 @@ def is_valid(url):
         if not (allowed_urls or (host == "today.uci.edu" and path.startswith("/department/information_computer_sciences/"))):
            return False
 
-        if "login" in path:
+        if "login" in path or "login" in parsed.query.lower():
             return False
            
         return not re.match(
@@ -143,3 +147,6 @@ def print_top_50():
     for word, count in top_50:
         print(rank, word, count)
         rank += 1
+
+def number_of_unique_pages():
+    return len(unique_visited)
