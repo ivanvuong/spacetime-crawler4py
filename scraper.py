@@ -37,7 +37,6 @@ def tokenize_string(s):
         tokens.append(curr.lower())
     return tokens
 
-
 def count_words(resp):
     if resp.status != 200:
         return
@@ -81,6 +80,9 @@ def extract_next_links(url, resp):
             return []
         try: 
             content = html.fromstring(body)
+            text = content.text_content()
+            if len(text.split()) < 100:
+                return []
             parsed_links = content.xpath("//a/@href")
         except Exception as e:
             return []
@@ -117,6 +119,9 @@ def is_valid(url):
 
         if not (allowed_urls or (host == "today.uci.edu" and path.startswith("/department/information_computer_sciences/"))):
            return False
+
+        if "login" in path:
+            return False
            
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
