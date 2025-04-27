@@ -126,6 +126,9 @@ def is_valid(url):
 
         if "login" in path or "login" in parsed.query.lower():
             return False
+
+        if "/day/" in path:
+            return False
            
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
