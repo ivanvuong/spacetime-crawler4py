@@ -114,8 +114,8 @@ def is_valid(url):
         scheme = parsed.scheme.lower()
         host = parsed.netloc.lower()
         path = parsed.path or '/'
-
-
+        query = parsed.query.lower()
+        
         if scheme not in set(["http", "https"]):
             return False
       
@@ -127,12 +127,18 @@ def is_valid(url):
         )
 
         if not (allowed_urls or (host == "today.uci.edu" and path.startswith("/department/information_computer_sciences/"))):
-           return False
-
-        if "login" in path or "login" in parsed.query.lower():
             return False
 
-        if "/day/" in path:
+        if "login" in path or "login" in query:
+            return False
+
+        if "/day/" in path or "ical" in query:
+            return False
+
+        if path.count("/") > 6:
+            return False
+
+        if url in unique_visited:
             return False
            
         return not re.match(
