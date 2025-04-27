@@ -19,6 +19,10 @@ def main(config_file, restart):
     print(f"\nTop 50 words: {scraper.print_top_50()}")
     print(f"Number of unique pages: {scraper.number_of_unique_pages()}")
     print(f"Longest page: {scraper.longest_page()}")
+    print("\nSubdomain breakdown:")
+    subdomains = scraper.get_subdomains()
+    for host in sorted(subdomains):
+        print(f"{host}, {subdomains[host]}")
 
 
 if __name__ == "__main__":

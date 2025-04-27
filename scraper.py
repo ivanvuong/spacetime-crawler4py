@@ -169,3 +169,13 @@ def longest_page():
             max = i
             longest_page_url = url
     print("Longest page: ", longest_page_url)
+
+def get_subdomains():
+    subdomains = {}
+    for url in unique_visited:
+        host = urlparse(url).netloc.lower()
+        prev = subdomains.get(host)
+        if prev is None:
+            prev = 0
+        subdomains[host] = prev + 1
+    return subdomains
