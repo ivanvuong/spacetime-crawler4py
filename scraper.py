@@ -113,9 +113,9 @@ def is_valid(url):
         parsed = urlparse(url)
         scheme = parsed.scheme.lower()
         host = parsed.netloc.lower()
-        path = parsed.path or '/'
+        path = (parsed.path or '/').rstrip('/')
         query = parsed.query.lower()
-        
+
         if scheme not in set(["http", "https"]):
             return False
       
@@ -132,15 +132,22 @@ def is_valid(url):
         if "login" in path or "login" in query:
             return False
 
-        if "/day/" in path or "ical" in query:
+        if "/day/" in path or "ical" in query or "tribe-bar-date" in query:
             return False
 
         if path.count("/") > 6:
             return False
 
-        if url in unique_visited:
+        if (scheme + "://" + host + path) in unique_visited:
             return False
-           
+
+        if (len(path) > 7):
+            end_years = path[-7:]
+            if (end_years[0:4].isdigit() and end_years[4] == "-" and end_years[5:].isdigit()):
+                year = int(end_years[0:4])
+                if year < 2010:
+                    return False 
+
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
