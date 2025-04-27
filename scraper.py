@@ -22,6 +22,7 @@ STOP_WORDS = {
 }
 
 word_frequencies = Counter()
+page_word_counts = {}
 unique_visited = set()
 
 def tokenize_string(s):
@@ -38,7 +39,7 @@ def tokenize_string(s):
         tokens.append(curr.lower())
     return tokens
 
-def count_words(resp):
+def count_words(url, resp):
     if resp.status != 200:
         return
 
@@ -51,10 +52,14 @@ def count_words(resp):
     except Exception:
         return
     
+    valid_tokens = []
     tokens = tokenize_string(page)
     for t in tokens:
         if len(t) >= 2 and t.isalpha() and t not in STOP_WORDS:
+            valid_tokens.append(t)
             word_frequencies[t] += 1
+    
+    page_word_counts[url] = len(valid_tokens)
 
 def scraper(url, resp):
     defragmented_link, fragment = urldefrag(url)
@@ -73,7 +78,7 @@ def extract_next_links(url, resp):
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
-    count_words(resp)
+    count_words(url, resp)
 
     parsed_links = []
     clean_links = [] 
@@ -153,3 +158,14 @@ def print_top_50():
 
 def number_of_unique_pages():
     return len(unique_visited)
+
+def longest_page():
+    if len(page_word_counts) == 0:
+        return
+    longest_page_url = None
+    max = 0
+    for url, i in page_word_counts.items():
+        if i > max:
+            max = i
+            longest_page_url = url
+    print("Longest page: ", longest_page_url)
