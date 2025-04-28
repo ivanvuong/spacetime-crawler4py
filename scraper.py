@@ -187,8 +187,5 @@ def get_subdomains():
     subdomains = {}
     for url in unique_visited:
         host = urlparse(url).netloc.lower()
-        prev = subdomains.get(host)
-        if prev is None:
-            prev = 0
-        subdomains[host] = prev + 1
+        subdomains[host] = subdomains.get(host, 0) + 1
     return subdomains
