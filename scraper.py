@@ -147,6 +147,11 @@ def is_valid(url):
                 year = int(end_years[0:4])
                 if year < 2010:
                     return False 
+        
+        if (len(path) > 3):
+            end_date = path[-3:]
+            if (end_date[0] == "-" and end_date[1:].isdigit()):
+                return False 
 
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
