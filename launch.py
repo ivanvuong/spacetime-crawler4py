@@ -19,7 +19,6 @@ def main(config_file, restart):
     print("\nTop 50 words:")
     scraper.print_top_50()
     print(f"\nNumber of unique pages: {scraper.number_of_unique_pages()}")
-    print("\nLongest page:")
     scraper.longest_page()   
     print("\nSubdomain breakdown:")
     subdomains = scraper.get_subdomains()
