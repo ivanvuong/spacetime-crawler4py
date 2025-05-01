@@ -115,6 +115,7 @@ def is_valid(url):
         host = parsed.netloc.lower()
         path = (parsed.path or '/').rstrip('/')
         query = parsed.query.lower()
+        defragmented_link, fragment = urldefrag(url)
 
         if scheme not in set(["http", "https"]):
             return False
@@ -129,16 +130,16 @@ def is_valid(url):
         if not (allowed_urls or (host == "today.uci.edu" and path.startswith("/department/information_computer_sciences/"))):
             return False
 
-        if "login" in path or "login" in query:
-            return False
+        # if "login" in path or "login" in query:
+        #     return False
 
         if "/day/" in path or "ical" in query or "tribe-bar-date" in query:
             return False
 
-        if path.count("/") > 6:
+        if path.count("/") > 15: 
             return False
 
-        if (scheme + "://" + host + path) in unique_visited:
+        if defragmented_link in unique_visited:
             return False
 
         if (len(path) > 7):
@@ -149,8 +150,14 @@ def is_valid(url):
                     return False 
         
         if (len(path) > 3):
-            end_date = path[-3:]
-            if (end_date[0] == "-" and end_date[1:].isdigit()):
+            path_end_date = path[-3:]
+            query_end_date = query[-3:]
+            if (path_end_date[0] == "-" and path_end_date[1:].isdigit()):
+                return False 
+
+        if (len(query) > 3):
+            query_end_date = query[-3:]
+            if (query_end_date[0] == "-" and query_end_date[1:].isdigit()):
                 return False 
 
         return not re.match(
@@ -164,8 +171,14 @@ def is_valid(url):
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
 
     except TypeError:
-        print ("TypeError for ", parsed)
-        raise
+        print ("TypeError for ", url)
+        return False
+    except ValueError:
+        print ("ValueError for ", url)
+        return False 
+    except Exception as e:
+        print (f"Exception {e}")
+        return False
 
 def print_top_50():
     top_50 = word_frequencies.most_common(50)

@@ -1,0 +1,1377 @@
+IR US25 54612964,47972861
+None
+Download Exception ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')).
+None
+None
+None
+None
+None
+None
+Download Exception HTTPConnectionPool(host='jujube.ics.uci.edu', port=80): Max retries exceeded with url: /www/learning.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x727fa808fe90>, 'Connection to jujube.ics.uci.edu timed out. (connect timeout=10)')).
+Download Exception HTTPConnectionPool(host='dblp.ics.uci.edu', port=80): Max retries exceeded with url: /authors (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x727fa35d37a0>, 'Connection to dblp.ics.uci.edu timed out. (connect timeout=10)')).
+Download Exception HTTPConnectionPool(host='dblp.ics.uci.edu', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x727fa35d3500>, 'Connection to dblp.ics.uci.edu timed out. (connect timeout=10)')).
+None
+Download Exception HTTPSConnectionPool(host='asterixdb.ics.uci.edu', port=443): Max retries exceeded with url: /fuzzyjoin-mapreduce (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x727fa2e56a20>: Failed to resolve 'asterixdb.ics.uci.edu' ([Errno -2] Name or service not known)")).
+None
+None
+None
+None
+None
+Download Exception HTTPConnectionPool(host='jujube.ics.uci.edu', port=80): Max retries exceeded with url: /localsearch/fuzzysearch (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x727fa3d29040>, 'Connection to jujube.ics.uci.edu timed out. (connect timeout=10)')).
+Download Exception HTTPConnectionPool(host='asterixdb.ics.uci.edu', port=80): Max retries exceeded with url: /fuzzyjoin (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x727fa3d29220>: Failed to resolve 'asterixdb.ics.uci.edu' ([Errno -2] Name or service not known)")).
+Download Exception HTTPConnectionPool(host='jujube.ics.uci.edu', port=80): Max retries exceeded with url: /localsearch/fuzzysearch (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x727fa808cfe0>, 'Connection to jujube.ics.uci.edu timed out. (connect timeout=10)')).
+None
+None
+None
+None
+None
+None
+Download Exception HTTPConnectionPool(host='codeexchange.ics.uci.edu', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x727fa3ac00e0>: Failed to resolve 'codeexchange.ics.uci.edu' ([Errno -2] Name or service not known)")).
+None
+None
+None
+None
+None
+None
+None
+Download Exception HTTPConnectionPool(host='sprout.ics.uci.edu', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x727fa39d63f0>: Failed to establish a new connection: [Errno 111] Connection refused')).
+None
+None
+Download Exception HTTPConnectionPool(host='awareness.ics.uci.edu', port=80): Max retries exceeded with url: /~ariadne (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x727fa33e0410>, 'Connection to awareness.ics.uci.edu timed out. (connect timeout=10)')).
+None
+None
+None
+None
+None
+None
+Download Exception ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')).
+None
+None
+None
+Download Exception ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')).
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+Denied by domain robot rules.
+Download Exception Exceeded 30 redirects..
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+Download Exception HTTPConnectionPool(host='yarra.ics.uci.edu', port=80): Max retries exceeded with url: /calit2 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x727fa38721e0>: Failed to resolve 'yarra.ics.uci.edu' ([Errno -2] Name or service not known)")).
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+Download Exception HTTPConnectionPool(host='checkmate.ics.uci.edu', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x727fa2af8e30>, 'Connection to checkmate.ics.uci.edu timed out. (connect timeout=10)')).
+Download Exception HTTPConnectionPool(host='hana.ics.uci.edu', port=80): Max retries exceeded with url: /Gary_vita (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x727fa9790260>: Failed to resolve 'hana.ics.uci.edu' ([Errno -2] Name or service not known)")).
+None
+Download Exception HTTPConnectionPool(host='mondego.ics.uci.edu', port=80): Max retries exceeded with url: /projects/dejavu (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x727fa36c6780>: Failed to establish a new connection: [Errno 111] Connection refused')).
+None
+None
+None
+None
+None
+None
+None
+None
+None
+Download Exception HTTPConnectionPool(host='tippersweb.ics.uci.edu', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x727faa0f93d0>, 'Connection to tippersweb.ics.uci.edu timed out. (connect timeout=10)')).
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+Download Exception HTTPConnectionPool(host='www.checkmate.ics.uci.edu', port=80): Max retries exceeded with url: /index.jsp (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x727fa8160b30>, 'Connection to www.checkmate.ics.uci.edu timed out. (connect timeout=10)')).
+None
+None
+None
+None
+None
+None
+None
+Download Exception HTTPConnectionPool(host='cocoa-krispies.ics.uci.edu', port=80): Max retries exceeded with url: /~paolo/JuliusC (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x727fa836eff0>: Failed to resolve 'cocoa-krispies.ics.uci.edu' ([Errno -2] Name or service not known)")).
+None
+None
+Download Exception HTTPConnectionPool(host='hana.ics.uci.edu', port=80): Max retries exceeded with url: /wizard (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x727faa06f7a0>: Failed to resolve 'hana.ics.uci.edu' ([Errno -2] Name or service not known)")).
+None
+None
+None
+Download Exception HTTPSConnectionPool(host='mse.ics.uci.edu', port=443): Max retries exceeded with url: /%20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x727faa20a3f0>: Failed to resolve 'mse.ics.uci.edu' ([Errno -2] Name or service not known)")).
+None
+None
+Download Exception URL can't contain control characters. ' codeexchange.ics.uci.edu' (found at least ' ').
+None
+None
+None
+None
+Content too big. 1748835
+Denied by domain robot rules.
+None
+Download Exception HTTPSConnectionPool(host='tippersweb.ics.uci.edu', port=443): Max retries exceeded with url: /team (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7864e4e9cb30>, 'Connection to tippersweb.ics.uci.edu timed out. (connect timeout=10)')).
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+Download Exception HTTPConnectionPool(host='seraja.ics.uci.edu', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x727fa3605af0>, 'Connection to seraja.ics.uci.edu timed out. (connect timeout=10)')).
+Download Exception HTTPConnectionPool(host='auge.ics.uci.edu', port=80): Max retries exceeded with url: /eventshop (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x727fa8274ad0>, 'Connection to auge.ics.uci.edu timed out. (connect timeout=10)')).
+Download Exception HTTPConnectionPool(host='auge.ics.uci.edu', port=80): Max retries exceeded with url: /sln (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x727fa3e27830>, 'Connection to auge.ics.uci.edu timed out. (connect timeout=10)')).
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+Denied by domain robot rules.
+Denied by domain robot rules.
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+Download Exception HTTPConnectionPool(host='satware.ics.uci.edu', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x727fa1a64290>: Failed to resolve 'satware.ics.uci.edu' ([Errno -2] Name or service not known)")).
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+Download Exception HTTPConnectionPool(host='cgvw.ics.uci.edu', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x727faa05fb30>: Failed to resolve 'cgvw.ics.uci.edu' ([Errno -2] Name or service not known)")).
+Download Exception HTTPConnectionPool(host='dataprotector.ics.uci.edu', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x727fa3c99e50>: Failed to resolve 'dataprotector.ics.uci.edu' ([Errno -2] Name or service not known)")).
+Download Exception HTTPConnectionPool(host='dataguard.ics.uci.edu', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x727fa3c98980>: Failed to resolve 'dataguard.ics.uci.edu' ([Errno -2] Name or service not known)")).
+Download Exception HTTPConnectionPool(host='mapgrid.ics.uci.edu', port=80): Max retries exceeded with url: /%22 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x727fa9719370>: Failed to resolve 'mapgrid.ics.uci.edu' ([Errno -2] Name or service not known)")).
+None
+None
+None
+None
+None
+Download Exception HTTPConnectionPool(host='www.isg.ics.uci.edu', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x727fa3e81130>: Failed to resolve 'www.isg.ics.uci.edu' ([Errno -2] Name or service not known)")).
+None
+None
+Download Exception HTTPSConnectionPool(host='tippers.ics.uci.edu', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x727fa3bdc7a0>, 'Connection to tippers.ics.uci.edu timed out. (connect timeout=10)')).
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+Download Exception HTTPConnectionPool(host='emj-pc.ics.uci.edu', port=80): Max retries exceeded with url: /mgs/dbases/agns (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x727fa3f05100>: Failed to resolve 'emj-pc.ics.uci.edu' ([Errno -2] Name or service not known)")).
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+Download Exception HTTPConnectionPool(host='metaviz.ics.uci.edu', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x727fa399db80>: Failed to resolve 'metaviz.ics.uci.edu' ([Errno -2] Name or service not known)")).
+None
+None
+Download Exception HTTPConnectionPool(host='honors.ics.uci.edu', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x727faa208980>: Failed to resolve 'honors.ics.uci.edu' ([Errno -2] Name or service not known)")).
+None
+None
+Download Exception HTTPConnectionPool(host='hana.ics.uci.edu', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x727faa11d610>: Failed to resolve 'hana.ics.uci.edu' ([Errno -2] Name or service not known)")).
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+None
+Download Exception HTTPConnectionPool(host='chime.ics.uci.edu', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x727fa3daa810>, 'Connection to chime.ics.uci.edu timed out. (connect timeout=10)')).
+None
+None
+Download Exception HTTPConnectionPool(host='cherry.ics.uci.edu', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x727fa3daa510>: Failed to resolve 'cherry.ics.uci.edu' ([Errno -2] Name or service not known)")).
+None
+None
+None
+None
+None
+None
+None
+Download Exception HTTPConnectionPool(host='asterixdb.ics.uci.edu', port=80): Max retries exceeded with url: /documentation/index.html (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x727fa3daa1e0>: Failed to resolve 'asterixdb.ics.uci.edu' ([Errno -2] Name or service not known)")).
+None
+None
+None
+None
+None
+
+Top 50 words:
+1 color 820304
+2 wp 718840
+3 preset 561667
+4 var 378223
+5 important 369038
+6 vivid 357151
+7 background 349184
+8 gradient 278066
+9 cyan 266451
+10 border 202990
+11 font 183465
+12 rgb 154976
+13 luminous 147394
+14 size 143749
+15 block 129264
+16 woocommerce 119316
+17 button 117106
+18 green 113949
+19 function 103438
+20 ect 97844
+21 blue 97046
+22 pale 96373
+23 light 91707
+24 layout 89319
+25 hover 84513
+26 gray 75317
+27 orange 74044
+28 linear 73947
+29 purple 73750
+30 focus 72187
+31 rgba 68226
+32 page 67904
+33 supports 66757
+34 event 61769
+35 return 61681
+36 post 60611
+37 content 60419
+38 margin 59688
+39 none 58911
+40 flex 58391
+41 new 57450
+42 gap 56962
+43 red 56838
+44 amber 56699
+45 bluish 56690
+46 text 55129
+47 padding 52251
+48 typeof 52040
+49 shadow 51858
+50 li 51765
+
+Number of unique pages: 7724
+
+Longest page:
+Longest page:  http://sli.ics.uci.edu/extras/cs178/Intro_Tutorial.html
+
+Subdomain breakdown:
+ codeexchange.ics.uci.edu, 1
+accessibility.ics.uci.edu, 2
+acoi.ics.uci.edu, 112
+aiclub.ics.uci.edu, 1
+archive.ics.uci.edu, 5
+asterix.ics.uci.edu, 7
+asterixdb.ics.uci.edu, 2
+auge.ics.uci.edu, 2
+awareness.ics.uci.edu, 1
+cbcl.ics.uci.edu, 3
+cert.ics.uci.edu, 1
+cgvw.ics.uci.edu, 1
+checkmate.ics.uci.edu, 1
+chenli.ics.uci.edu, 2
+cherry.ics.uci.edu, 1
+chime.ics.uci.edu, 1
+cloudberry.ics.uci.edu, 46
+cml.ics.uci.edu, 204
+cocoa-krispies.ics.uci.edu, 1
+code.ics.uci.edu, 14
+codeexchange.ics.uci.edu, 1
+computableplant.ics.uci.edu, 39
+courselisting.ics.uci.edu, 2
+cradl.ics.uci.edu, 10
+create.ics.uci.edu, 6
+cs.ics.uci.edu, 12
+cs260p-hub.ics.uci.edu, 1
+cs260p-staging-hub.ics.uci.edu, 1
+cwicsocal18.ics.uci.edu, 12
+cyberclub.ics.uci.edu, 1
+dataguard.ics.uci.edu, 1
+dataprotector.ics.uci.edu, 1
+dblp.ics.uci.edu, 2
+dgillen.ics.uci.edu, 29
+duttgroup.ics.uci.edu, 122
+dynamo.ics.uci.edu, 1
+emj-pc.ics.uci.edu, 1
+emj.ics.uci.edu, 43
+esl.ics.uci.edu, 1
+evoke.ics.uci.edu, 4
+flamingo.ics.uci.edu, 11
+fr.ics.uci.edu, 5
+futurehealth.ics.uci.edu, 3
+grape.ics.uci.edu, 20
+graphics.ics.uci.edu, 10
+graphmod.ics.uci.edu, 1
+hack.ics.uci.edu, 1
+hai.ics.uci.edu, 3
+hana.ics.uci.edu, 3
+helpdesk.ics.uci.edu, 3
+hobbes.ics.uci.edu, 1
+honors.ics.uci.edu, 1
+hpi.ics.uci.edu, 5
+hub.ics.uci.edu, 3
+iasl.ics.uci.edu, 2
+ics45c-hub.ics.uci.edu, 1
+ics45c-staging-hub.ics.uci.edu, 1
+ics46-hub.ics.uci.edu, 1
+ics46-staging-hub.ics.uci.edu, 1
+ics53-hub.ics.uci.edu, 1
+ics53-staging-hub.ics.uci.edu, 1
+industryshowcase.ics.uci.edu, 21
+informatics.ics.uci.edu, 1
+insite.ics.uci.edu, 1
+intranet.ics.uci.edu, 1
+ipubmed.ics.uci.edu, 1
+isg.ics.uci.edu, 244
+jgarcia.ics.uci.edu, 1
+jujube.ics.uci.edu, 2
+julia-hub.ics.uci.edu, 1
+luci.ics.uci.edu, 5
+mailman.ics.uci.edu, 4
+malek.ics.uci.edu, 1
+mapgrid.ics.uci.edu, 1
+metaviz.ics.uci.edu, 1
+mhcid.ics.uci.edu, 14
+mondego.ics.uci.edu, 1
+mse.ics.uci.edu, 1
+mswe.ics.uci.edu, 10
+nalini.ics.uci.edu, 7
+ngs.ics.uci.edu, 2028
+oai.ics.uci.edu, 5
+password.ics.uci.edu, 1
+psearch.ics.uci.edu, 2
+redmiles.ics.uci.edu, 1
+riscit.ics.uci.edu, 1
+satware.ics.uci.edu, 1
+sdcl.ics.uci.edu, 202
+seal.ics.uci.edu, 2
+seraja.ics.uci.edu, 1
+sherlock.ics.uci.edu, 2
+sli.ics.uci.edu, 1199
+sprout.ics.uci.edu, 1
+staging-hub.ics.uci.edu, 1
+stairs.ics.uci.edu, 1
+student-council.ics.uci.edu, 3
+support.ics.uci.edu, 1
+swiki.ics.uci.edu, 4
+tastier.ics.uci.edu, 1
+tippers.ics.uci.edu, 1
+tippersweb.ics.uci.edu, 2
+transformativeplay.ics.uci.edu, 54
+tutoring.ics.uci.edu, 5
+tutors.ics.uci.edu, 1
+ugradforms.ics.uci.edu, 1
+vision.ics.uci.edu, 7
+wearablegames.ics.uci.edu, 1
+wics.ics.uci.edu, 1137
+wiki.ics.uci.edu, 5
+www-db.ics.uci.edu, 20
+www.checkmate.ics.uci.edu, 1
+www.cs.uci.edu, 12
+www.graphics.ics.uci.edu, 1
+www.ics.uci.edu, 653
+www.informatics.ics.uci.edu, 1
+www.informatics.uci.edu, 1165
+www.isg.ics.uci.edu, 1
+www.stat.uci.edu, 98
+xtune.ics.uci.edu, 6
+yarra.ics.uci.edu, 1
