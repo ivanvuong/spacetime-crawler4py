@@ -200,6 +200,7 @@ def longest_page():
             max = i
             longest_page_url = url
     print("Longest page: ", longest_page_url)
+    print("Word count of longest page: ", max)
 
 def get_subdomains():
     subdomains = {}
