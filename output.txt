@@ -1,0 +1,189 @@
+IR US25 54612964,47972861
+
+Top 50 words:
+1 color 914056
+2 wp 810067
+3 preset 621890
+4 var 427484
+5 important 408692
+6 vivid 395392
+7 background 389935
+8 gradient 307403
+9 cyan 294980
+10 border 229882
+11 font 206239
+12 rgb 171914
+13 luminous 163176
+14 size 161921
+15 block 153406
+16 woocommerce 150292
+17 button 145057
+18 function 132036
+19 green 126531
+20 blue 108236
+21 pale 106692
+22 hover 103841
+23 ect 101854
+24 light 101635
+25 layout 99598
+26 focus 93197
+27 page 89459
+28 js 88094
+29 https 87410
+30 gray 83494
+31 orange 82062
+32 purple 81670
+33 linear 81436
+34 false 79361
+35 rgba 75246
+36 return 73687
+37 supports 73573
+38 event 71903
+39 type 70682
+40 content 70169
+41 margin 69686
+42 new 68300
+43 none 66831
+44 post 66694
+45 text 65602
+46 flex 65241
+47 red 63317
+48 li 63303
+49 gap 63053
+50 amber 62770
+
+Number of unique pages: 10690
+Longest page:  http://sli.ics.uci.edu/extras/cs178/Intro_Tutorial.html
+Word count of longest page:  29118
+
+Subdomain breakdown:
+ codeexchange.ics.uci.edu, 1
+accessibility.ics.uci.edu, 2
+acoi.ics.uci.edu, 112
+aiclub.ics.uci.edu, 1
+archive.ics.uci.edu, 6
+asterix.ics.uci.edu, 7
+asterixdb.ics.uci.edu, 2
+auge.ics.uci.edu, 2
+awareness.ics.uci.edu, 1
+cbcl.ics.uci.edu, 3
+cert.ics.uci.edu, 1
+cgvw.ics.uci.edu, 1
+checkmate.ics.uci.edu, 1
+chenli.ics.uci.edu, 3
+cherry.ics.uci.edu, 1
+chime.ics.uci.edu, 1
+cloudberry.ics.uci.edu, 47
+cml.ics.uci.edu, 204
+cocoa-krispies.ics.uci.edu, 1
+code.ics.uci.edu, 14
+codeexchange.ics.uci.edu, 1
+computableplant.ics.uci.edu, 39
+coronavirustwittermap.ics.uci.edu, 1
+courselisting.ics.uci.edu, 4
+cradl.ics.uci.edu, 25
+create.ics.uci.edu, 7
+cs.ics.uci.edu, 12
+cs260p-hub.ics.uci.edu, 1
+cs260p-staging-hub.ics.uci.edu, 1
+cwicsocal18.ics.uci.edu, 12
+cyberclub.ics.uci.edu, 1
+dataguard.ics.uci.edu, 1
+dataprotector.ics.uci.edu, 1
+dblp.ics.uci.edu, 2
+dgillen.ics.uci.edu, 32
+ds4all.ics.uci.edu, 5
+duttgroup.ics.uci.edu, 144
+dynamo.ics.uci.edu, 1
+emj-pc.ics.uci.edu, 1
+emj.ics.uci.edu, 46
+esl.ics.uci.edu, 1
+evoke.ics.uci.edu, 7
+flamingo.ics.uci.edu, 11
+fr.ics.uci.edu, 5
+futurehealth.ics.uci.edu, 5
+grape.ics.uci.edu, 85
+graphics.ics.uci.edu, 10
+graphmod.ics.uci.edu, 1
+hack.ics.uci.edu, 2
+hai.ics.uci.edu, 3
+hana.ics.uci.edu, 4
+helpdesk.ics.uci.edu, 3
+hobbes.ics.uci.edu, 1
+hombao.ics.uci.edu, 1
+honors.ics.uci.edu, 1
+hpi.ics.uci.edu, 5
+hub.ics.uci.edu, 3
+iasl.ics.uci.edu, 2
+icde2023.ics.uci.edu, 46
+ics45c-hub.ics.uci.edu, 1
+ics45c-staging-hub.ics.uci.edu, 1
+ics46-hub.ics.uci.edu, 1
+ics46-staging-hub.ics.uci.edu, 1
+ics53-hub.ics.uci.edu, 1
+ics53-staging-hub.ics.uci.edu, 1
+industryshowcase.ics.uci.edu, 21
+informatics.ics.uci.edu, 1
+insite.ics.uci.edu, 1
+intranet.ics.uci.edu, 1
+ipubmed.ics.uci.edu, 1
+isg.ics.uci.edu, 290
+jgarcia.ics.uci.edu, 36
+jujube.ics.uci.edu, 2
+julia-hub.ics.uci.edu, 1
+luci.ics.uci.edu, 5
+mailman.ics.uci.edu, 4
+malek.ics.uci.edu, 1
+mapgrid.ics.uci.edu, 1
+mcs.ics.uci.edu, 10
+mdogucu.ics.uci.edu, 1
+mds.ics.uci.edu, 10
+metaviz.ics.uci.edu, 1
+mhcid.ics.uci.edu, 17
+mondego.ics.uci.edu, 1
+mse.ics.uci.edu, 1
+mswe.ics.uci.edu, 11
+nalini.ics.uci.edu, 7
+ngs.ics.uci.edu, 3024
+oai.ics.uci.edu, 5
+password.ics.uci.edu, 1
+psearch.ics.uci.edu, 2
+redmiles.ics.uci.edu, 1
+riscit.ics.uci.edu, 1
+satware.ics.uci.edu, 1
+sdcl.ics.uci.edu, 207
+seal.ics.uci.edu, 6
+seraja.ics.uci.edu, 1
+sherlock.ics.uci.edu, 2
+sli.ics.uci.edu, 1499
+sprout.ics.uci.edu, 1
+staging-hub.ics.uci.edu, 1
+stairs.ics.uci.edu, 1
+statconsulting.ics.uci.edu, 5
+student-council.ics.uci.edu, 3
+summeracademy.ics.uci.edu, 8
+support.ics.uci.edu, 1
+swiki.ics.uci.edu, 4
+tastier.ics.uci.edu, 1
+tippers.ics.uci.edu, 1
+tippersweb.ics.uci.edu, 2
+transformativeplay.ics.uci.edu, 56
+tutoring.ics.uci.edu, 5
+tutors.ics.uci.edu, 1
+ugradforms.ics.uci.edu, 1
+unite.ics.uci.edu, 9
+vision.ics.uci.edu, 7
+wearablegames.ics.uci.edu, 12
+wics.ics.uci.edu, 2141
+wiki.ics.uci.edu, 5
+www-db.ics.uci.edu, 20
+www.checkmate.ics.uci.edu, 1
+www.cs.uci.edu, 17
+www.graphics.ics.uci.edu, 1
+www.ics.uci.edu, 848
+www.informatics.ics.uci.edu, 1
+www.informatics.uci.edu, 1173
+www.isg.ics.uci.edu, 1
+www.stat.uci.edu, 232
+xtune.ics.uci.edu, 6
+yarra.ics.uci.edu, 1

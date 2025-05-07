@@ -96,7 +96,6 @@ def extract_next_links(url, resp):
         except Exception as e:
             return []
     else:
-        print(resp.error)
         return []
     
     for link in parsed_links:
@@ -129,9 +128,6 @@ def is_valid(url):
 
         if not (allowed_urls or (host == "today.uci.edu" and path.startswith("/department/information_computer_sciences/"))):
             return False
-
-        # if "login" in path or "login" in query:
-        #     return False
 
         if "/day/" in path or "ical" in query or "tribe-bar-date" in query:
             return False
@@ -171,13 +167,10 @@ def is_valid(url):
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
 
     except TypeError:
-        print ("TypeError for ", url)
         return False
     except ValueError:
-        print ("ValueError for ", url)
         return False 
     except Exception as e:
-        print (f"Exception {e}")
         return False
 
 def print_top_50():
